@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+/* @custom-variant dark (&:is(.dark *)); */
